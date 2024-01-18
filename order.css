@@ -1,0 +1,369 @@
+body{
+    background-image: url(./images/order\ background.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 0px -0px;
+}
+
+div.main{
+    width: 600px;
+    margin: 100px auto 0px auto;
+   
+}
+div.main2{
+    background-color:rgba(255, 255, 255, 0.5);
+    width:100%;
+    font-size: 18px;
+    border-radius: 10PX;
+    box-shadow: 2px 2px 15px
+   
+}
+h2{
+    text-align: center;
+font-family: sans-serif;
+}
+
+form#register{
+    margin: 40px;
+}
+label{
+    font-family: Bahnschrift SemiBold;
+ font-size: 25px;
+ 
+;}
+input#name{
+    width: 200px;
+    border-radius: 3px;
+outline: auto;
+padding: 7px;
+background-color: #fff;
+box-shadow: 2px 2px 15px;
+}
+input#other{
+    width: 428px;
+    border-radius: 3px;
+outline: auto;
+padding: 7px;
+background-color: #fff;
+box-shadow: 2px 2px 15px;
+}
+input#street{
+    width: 428px;
+    border-radius: 3px;
+outline: auto;
+padding: 7px;
+background-color: #fff;
+box-shadow: 2px 2px 15px;
+}
+input#city{
+    width: 200px;
+    border-radius: 3px;
+outline: auto;
+padding: 7px;
+background-color: #fff;
+box-shadow: 2px 2px 15px;
+}
+input#zip{
+    width: 200px;
+    border-radius: 3px;
+outline: auto;
+padding: 7px;
+background-color: #fff;
+box-shadow: 2px 2px 15px;
+}
+input#cvv{
+    width: 100px;
+    border-radius: 3px;
+outline: auto;
+padding: 7px;
+background-color: #fff;
+box-shadow: 2px 2px 15px;
+}
+.world{
+    width: 200px;
+    border-radius: 3px;
+outline: auto;
+padding: 7px;
+background-color: #fff;
+box-shadow: 2px 2px 15px;
+}
+
+
+ a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1px;
+    width: 300px;
+    font-family: sans-serif;
+    background-color: rgb(246, 121, 76);
+    cursor: pointer;
+box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+
+}
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+
+a:visited {
+    color: rgb(15, 0, 146);
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}
+@media only screen and (max-width: 370px){div.main{
+    width: 100%;
+    height: 25px;
+    margin: 100px auto 0px auto;
+    body{
+    background-image: url(./images/order\ background.jpg);
+background-size: 100%;
+width: 100px;
+height: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 0px -0px;
+}
+   
+}
+
+}
+@media only screen and (max-width: 600px) {
+    div.main{
+        width: 100%;
+        height: 50px;
+        margin: 100px auto 0px auto;
+       
+    }
+    .world{
+        width: 100px;
+        border-radius: 3px;
+    outline: auto;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }h2{
+        text-align: center;
+    font-family: sans-serif;
+    }
+    
+    form#register{
+        margin: 20px;
+    }
+    label{
+        font-family: Bahnschrift SemiBold;
+     font-size: 20px;
+     
+    ;}
+    input#name{
+        width: 100px;
+        border-radius: 3px;
+    outline: auto;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }
+    input#other{
+        width: 300px;
+        border-radius: 3px;
+    outline: auto;
+    padding:5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }
+    input#street{
+        width: 300px;
+        border-radius: 3px;
+    outline: auto;
+    padding: 3px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }
+    input#city{
+        width: 100px;
+        border-radius: 3px;
+    outline: auto;
+    padding:5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }
+    input#zip{
+        width: 100px;
+        border-radius: 3px;
+    outline: auto;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }
+    input#cvv{
+        width: 50px;
+        border-radius: 3px;
+    outline: auto;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }
+   
+  }
+  
+@media only screen and (max-width: 700px) {
+    div.main{
+        width: 80%;
+        height: 50px;
+        margin: 50px auto 0px auto;
+       
+    }
+    .world{
+        width: 100px;
+        border-radius: 3px;
+    outline: auto;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }h2{
+        text-align: center;
+    font-family: sans-serif;
+    }
+    
+    form#register{
+        margin: 20px;
+    }
+    label{
+        font-family: Bahnschrift SemiBold;
+     font-size: 20px;
+     
+    ;}
+    input#name{
+        width: 100px;
+        border-radius: 3px;
+    outline: auto;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }
+    input#other{
+        width: 200px;
+        border-radius: 3px;
+    outline: auto;
+    padding:5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }
+    input#street{
+        width: 200px;
+        border-radius: 3px;
+    outline: auto;
+    padding: 3px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }
+    input#city{
+        width: 100px;
+        border-radius: 3px;
+    outline: auto;
+    padding:5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }
+    input#zip{
+        width: 100px;
+        border-radius: 3px;
+    outline: auto;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }
+    input#cvv{
+        width: 50px;
+        border-radius: 3px;
+    outline: auto;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }
+   
+  }
+@media only screen and (max-width: 313px) {
+    div.main{
+        width: 80%;
+        height: 50px;
+        margin: 50px auto 0px auto;
+       
+    }
+    .world{
+        width: 50px;
+        border-radius: 3px;
+    outline: auto;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }h2{
+        text-align: center;
+    font-family: sans-serif;
+    }
+    
+    form#register{
+        margin: 20px;
+    }
+    label{
+        font-family: Bahnschrift SemiBold;
+     font-size: 20px;
+     
+    ;}
+    input#name{
+        width: 100px;
+        border-radius: 3px;
+    outline: auto;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }
+    input#other{
+        width: 80px;
+        border-radius: 3px;
+    outline: auto;
+    padding:5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }
+    input#street{
+        width: 100px;
+        border-radius: 3px;
+    outline: auto;
+    padding: 3px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }
+    input#city{
+        width: 50px;
+        border-radius: 3px;
+    outline: auto;
+    padding:5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }
+    input#zip{
+        width: 50px;
+        border-radius: 3px;
+    outline: auto;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }
+    input#cvv{
+        width: 50px;
+        border-radius: 3px;
+    outline: auto;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px;
+    }
+   
+  }
+  
